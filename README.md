@@ -3,7 +3,7 @@
 ## 📋 The "Runbook" (Workflow Sheet)
 | Step | Action | Command / Tool | Status | Challenges & Fixes |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | ** Infrastructure** | `az vm create` | ✅ Done | **Challenge:** `SkuNotAvailable` in Sweden Central.<br>**Fix:** Switched to `Standard_B2s_v2` hardware. |
+| **1** | **Infrastructure** | `az vm create` | ✅ Done | **Challenge:** `SkuNotAvailable` in Sweden Central.<br>**Fix:** Switched to `Standard_B2s_v2` hardware. |
 | **2** | **Configuration** | `ssh admin1@<IP>` | ✅ Done | **Challenge:** Authenticating securely.<br>**Fix:** Used SSH Key pairs (no passwords). |
 | **3** | **Scripting** | `nano monitor.sh` | ✅ Done | **Challenge:** Syntax errors in Bash.<br>**Fix:** Debugged missing quotes in echo statements. |
 | **4** | **Automation** | `chmod +x` | ✅ Done | **Challenge:** Permission denied.<br>**Fix:** Modified file execution rights. |
